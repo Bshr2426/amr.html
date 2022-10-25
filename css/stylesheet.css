@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 217, 217);
+}
+.header{
+    width: 100%; height: 35px;    background-color: #033E3E;     overflow: auto;    position: fixed;    z-index: 10; opacity: .7; 
+}
+.img1{
+    width: 70px;  height: 34px;  margin: 0px 100px;  border-radius:50% ;
+}
+.ul1{
+   float:right;     margin: 3px 65px;
+}
+.ul1 li{
+    display: inline;    margin: 12px;
+}
+.header a{
+    font-size: 20px;   color:#FFFFFF;    text-decoration: none; 
+}
+#a1{
+    text-decoration:5px underline red;
+}
+.a2{
+    position: relative;
+}
+.a2:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover,.a7:hover,.a8:hover{
+    text-decoration: 5px underline  red ;
+}
+.home{
+     height: 100vh;        background-image:url(../imges/صور\ هكر\ 2019\ \(4\).jpg);       background-size: cover;        position: relative; 
+}
+.overlay{
+    position: absolute;   width: 100%;    height: 100%;    top: 0;    left: 0;    background-color:#262631 ;   opacity: 0.9; 
+}
+
+.home-content{
+    position: absolute;color: white;top: 50%;left: 50%;  transform: translate(-50% , -50%);  text-align: center;   font-weight: bold;   
+}
+.home-content h2{
+    font-size: 70px;
+}
+.home-content p{
+    font-size: 20px;   margin: 10px;
+}
+.btn1 ,.btn2{
+  padding: 15px 20px;  cursor: pointer;  margin-top: 10px;  border: none;  border-radius: 10px;  color:black;  font-size: 15px; font-weight: bold;
+}
+.btn1{
+  margin: auto 10px;
+}
+.btn2{
+    color:white;  background-color:#0000FF;  
+}
+.container{
+    width: 80%;   margin: auto;
+   }
+.title{
+text-align: center;margin-top: 70px;font-size: 35px;
+}
+.pra{
+    width: 120px;   height: 3px;   background-color: blue;  margin: auto;
+}
+.parent-custom{
+margin: 70px 0px;overflow: auto;
+}
+.custom1,.custom2,.custom3{
+    width: 28%; height: 200px;  border: 1px solid grey;float: left;margin: 0px 28px;text-align: center;position: relative;
+
+}
+.parent-custom i{
+    font-size: 30PX; padding-top: 20px; color: #1e1edd;
+}
+.custom-h{
+  padding: 10PX 0PX; 
+}
+.custom-s{
+color: gray;
+}
+.custom-p  {
+padding: 20px 0px;font-size: 20px;color: rgb(1, 1, 255);
+}
+.custom1:after,.custom2:after,.custom3:after{
+    content: "";  position: absolute;   width: 0;  height: 0; top: 0;  left: 0;  background-color: black; opacity: 0.9; transition: .5s;
+}
+.custom1:hover:after,.custom2:hover:after,.custom3:hover:after{
+    width: 100%;  height: 100%; z-index: -1;
+}
+.custom1:hover,.custom2:hover,.custom3:hover  .custom-h{
+color: white;
+}
+.ee{
+    padding: 3px 0px;
+}
+.featured{
+   height: 750px; background-color: rgb(190, 186, 186);
+}
+.featured-parent5{
+  width: 100%;  padding: 30px 10px;  overflow: auto; 
+}
+  .son-a{
+width: 30%;    text-align: center;        float: left;  padding: 18px 18px;    margin: 30px 17px;    position: relative;
+}
+.son-a img{
+    background-color: white;  padding: 0px 25px;   width: 100%; height: 200px;
+}
+.featured-parent5 .son-aa{
+ position: absolute;  top: 0;  left: 0;   bottom: 0;  right: 0;  padding: 70px 0px;    visibility: hidden;
+}
+ .son-a::after{
+    content: "";  width: 100%;  height: 0;  position: absolute;  top: 0;  left: 0;   background-color: black; opacity: .6;  transition:.5s;
+}
+.son-a:hover::after{
+    width: 100%;   height: 100% ;   
+}
+.son-a:hover .son-aa{
+    visibility: visible;      color: white;     z-index: 1;  }
+.son-aa  h3{  font-size: 35px;  }
+.son-aa p{  font-size: 15px;  }
+.son-aa i{
+    font-size: 15px;    color:black;   margin-top: 8px;    padding: 10px 15px;  background-color: #5e5ec2;
+}
+.parent-offer{
+overflow: auto;  margin-top: 40px;
+}
+.app {
+width: 28%;height: 170px;border: 1px solid black;float: left;margin: 20px 29px;text-align: center;padding: 30px 50px;position: relative;
+}
+.parent-offer p{
+    padding-top: 10px;
+}
+.parent-offer h2{
+   font-size: 23px;
+}
+.parent-offer i{
+      font-size: 30px;    position: absolute;    top: 33px;    left: 15px;    color: rgb(71, 71, 233);   
+}
+.app::after{
+    content: "";    position: absolute;    width: 0;    height: 0;    background-color: black;   top: 0;   left: 0;   opacity: .7;    transition: .5s;
+}
+.app:hover::after{
+    width: 100%;    height: 100%;    z-index: -1;
+}
+.app:hover h2{
+color: white;
+}
+.us{
+    height: 500px;overflow: auto;margin-top: 110px;position: relative;
+}
+.choose{
+width: 700px;float: left;margin-top: 20px;
+}
+.choose-title{
+font-size: 45px;
+}
+.choose-pra{
+width: 50px;height: 3px;background-color: blue;margin-bottom: 30px;
+}
+.choose-aa{    
+padding: 70px 0px;   font-size: 30px;
+}
+.choose i{
+   display: inline-block;font-size: 30px;margin-top: 15px;color: #1e1edd;
+}
+.choose .q1{
+    font-size: 20px;
+}
+.amr {
+float: right;padding-top: 30px;
+}
+.amr img{
+width: 330pxpx;height: 350px;
+}
+.amr-li {
+text-align: center;
+}
+.amr-li li{
+        width: 10px;    height: 10px;    display: inline-block;    border-radius: 50%;    color: white;    border: 1px solid black;   
+}
+.amr-li li:hover{
+       background-color:rgb(87, 87, 218);
+}
+.amr-ll{
+position: absolute;width: 10px;height: 10px;border-radius: 50%;border: 1px solid black;margin: 5px 148px;background-color: rgb(87, 87, 218);
+}
+.father{
+height: 300px;background-image: url(../imges/WhatsApp\ Image\ 2022-10-24\ at\ 3.49.47\ AM.jpeg);background-attachment: fixed;background-size: cover;position: relative;overflow: auto;margin-top: 50px;
+}
+.happy{
+    width: 150px ;    height: 90px;    text-align: center;    padding-top: 100px;    font-size: 30px;    float: left;   margin-left: 110px;   color: rgb(248, 242, 242);
+}
+.pricing{
+height: 100vh;background-color: rgb(192, 185, 185);overflow: auto;
+}
+.title-a{
+text-align: center;margin-top: 35px;font-size: 35px;
+}
+.pra-a{
+width: 100px;height: 3px;background-color: blue;margin: auto;
+}
+.basic{
+width: 250px;height: 280px;border: 1px solid black;background-color: #FFFFFF;text-align: center;float: left;margin: 90px 57px;position: relative;
+}
+.basic-h{
+margin: 15px;
+}
+.basic-div{
+    width: 90px;    height: 90px;    border: 1px solid black;    border-radius: 50%;    margin: auto;
+}
+.basic-p{
+    font-size: 50px;   font-weight: 900;    margin-top: 6px;
+}
+.btnn{
+    margin: 16px;    color: #fffafa;    font-size: 15px;    font-weight: bold;    background-color: #1e1edd;    border: none;   padding: 5px 9px;   border-radius: 8px;   
+}
+.pp{
+    margin-top: 8px;
+}
+.basic:after{
+content: "";position: absolute;width: 100%;height: 0;top: 0;left: 0;background-color: black;opacity: .5;transition: .3s;
+}
+.basic:hover::after{
+width: 100%;  height: 100%;
+}
+.basic:hover .basic-h{
+    color:rgb(0, 26, 255); 
+}
+.basic:hover .basic-div{
+    color: rgb(0, 26, 255);
+}
+.bshr{
+height: 320px;background-image: url(../imges/أعظم-المبرمجين-في-التاريخ،-ثقف-نفسك-16.jpg);background-attachment: fixed;  background-size: cover;  overflow: auto;
+}
+.bshr-a{
+    width: 50%;   margin-top: 40px;float: left;  position: relative;
+}
+.bshr-h{
+    font-size: 25px;  color: #FFFFFF;   
+}
+.bshr-p{
+    margin: 3px  9px;   font-weight: bold;   font-size: 21px;   color: rgb(1, 241, 61);
+}
+.bshr-a img{
+width: 100px;height: 100px;border-radius: 50%;margin: 40px 90px;
+}
+.bshr-pp{
+ margin:-35px 110px;color: #FFFFFF;
+}
+.bshr-b{
+position: absolute;top: 60px;left: 200px;
+}
+.team-parent{
+height: 500px;overflow: auto;margin: 100px auto;
+}
+.team-item{
+float: left;width: 29%;background-color: rgb(187, 184, 184);margin: 30px 23px;text-align: center;position: relative;  padding: 15px 15px;
+}
+.team-icon{
+background-color: rgb(255, 255, 255);  width: 100%;   height: 250px;  position: relative;
+}
+.team-icon img{
+width: 100%;height: 100%;
+}
+.team-overlay {
+    position: absolute;    top: 0;    left: 0;    right: 0;    bottom: 0;    background-color:rgba(8,10,50,0.5);   visibility: hidden;   opacity: 0;
+}
+.team-item:hover .team-overlay{
+    visibility: visible;  opacity:1 ;
+}
+.team-overlay a{
+display: block;  width: 40px;  height: 40px;  background-color: rgb(74, 115, 202);  color: blue;  margin-left: auto;   
+}
+.team-overlay a i {
+    line-height: 40px;  
+}
+.info-title{
+font-size: 30px;
+}
+.em img{
+  padding: 0px 35px;   background-color: rgb(255, 255, 255);
+}
+.info-p{
+font-weight: bold;
+}
+.team-item::after{
+   content: ""; position: absolute; width: 100%; height: 0; top: 0; left: 0;  background-color: rgba(8,10,50,.5);
+transition: .5s;
+}
+.team-item:hover::after{
+    width: 100%;     height: 100%;
+}
+.team-item:hover .team-info{
+    color: blue;
+} 
+.ww{
+    margin-bottom: 45px;
+}
+.parent-news{
+overflow: auto;  }
+.news-item{
+    width: 28%;   float: left;   padding: 0px 7px;margin: 10px 29px;   padding-bottom: 8px;  position: relative;
+}
+.news-item img{
+    display: block;    width: 90%;    height: 270px;    padding-left: 10px;
+}
+.news-item i{
+font-size: 12px;  padding:15px 4px;    
+}
+.news-item h3{
+    font-size: 23px;     padding: 10px;
+}
+.news-item p{
+   padding: 5px 9px;
+}
+.news-item a{
+margin: 10px 10px;   font-size: 19px;
+}
+.news-item:after{
+    content: "";   position: absolute;   width: 100%;   height: 0;   top: 0;    left: 0;   background-color: rgba(0,0,0);  opacity: .5;    transition: .5s;
+}
+.news-item:hover::after{
+    width: 100%;  height: 100%;  padding-bottom: 10px;
+}
+.finish{
+    background-color: rgb(168, 168, 168);   text-align: center;
+}
+.finish img{
+    margin-top: 20px;  width: 360px;height: 80px;
+}
+.finish-ul{
+      list-style: none;
+}
+.finish-ul li{
+    display: inline-block;   background-color: #6195ff;   width:40px;   height: 40px;   border-radius: 50%;   position: relative;    margin-top: 8PX;
+}
+.finish-ul a{ 
+    display: block;   width:100%;   height: 100%;   color:rgb(144, 144, 231);  
+}
+.finish-ul a i {
+    font-size: 20px;   line-height: 40px;   color: blue;  
+}
+.finish p {
+    font-size: 15px;   padding: 10px  0px;
+}
+.finish-ul li::after{
+    content: "";  position: absolute; width: 0;  height: 0;  top: 0;   left: 0;   background-color: black;   opacity: .6;   
+}
+ .finish-ul li:hover::after{
+    position: absolute;   width: 100%;   height: 100%;   border-radius: 50%;
+ }
+
+    
+    
+  
+
+
